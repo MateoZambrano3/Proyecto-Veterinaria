@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Veterinaria PetCare</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <h1>Veterinaria PetCare</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Acerca de Nosotros</a>
+            <a href="team.html">Nuestro Equipo</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o necesitas ayuda? ¡Escríbenos! Estamos aquí para ayudarte con el cuidado de tu mascota.</p>
+    
+        <div class="contact-container">
+            
+            <div class="contact-form">
+                <form action="enviar_mensaje.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+    
+            <div class="info-contacto">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> Calle 123, Girardot, Colombia</p>
+                <p><strong>Teléfono:</strong> +57 3132388659</p>
+                <p><strong>Email:</strong> contacto@veterinariapetcare.com</p>
+                
+
+                <div class="social-links">
+                    <h4>Síguenos en:</h4>
+                    <a href="https://www.facebook.com/mateo.zambranomoreno.7" target="_blank">Facebook</a> |
+                    <a href="#">Instagram</a> |
+                    <a href="#">Twitter</a>
+                </div>
+                
+                <div class="horarios">
+                    <h4>Horarios de Atención:</h4>
+                    <p>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+                    <p>Sábado: 9:00 AM - 2:00 PM</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="map-container">
+            <h4>Encuéntranos aquí:</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.3928744488345!2d-74.81349592330932!3d4.293886345184997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e0fd4b56d6d4f%3A0x1f4ec8b8f1f6b59d!2sGirardot%2C%20Cundinamarca!5e0!3m2!1sen!2sco!4v1680783409598!5m2!1sen!2sco" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Veterinaria PetCare - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
